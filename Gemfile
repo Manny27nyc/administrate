@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem "administrate-field-image"
+gem "administrate-field-image", ">= 1.1.0"
 gem "faker"
 gem "front_matter_parser"
 gem "globalid"
-gem "kaminari-i18n"
+gem "kaminari-i18n", ">= 0.5.0"
 gem "pg"
 gem "redcarpet"
 gem "sentry-raven"
@@ -17,15 +17,15 @@ group :development, :test do
   gem "awesome_print"
   gem "bundler-audit", require: false
   gem "byebug"
-  gem "dotenv-rails"
-  gem "factory_bot_rails"
+  gem "dotenv-rails", ">= 2.7.6"
+  gem "factory_bot_rails", ">= 6.2.0"
   gem "i18n-tasks", "0.9.34"
   gem "pry-rails"
   gem "yard"
 end
 
 group :test do
-  gem "ammeter"
+  gem "ammeter", ">= 1.1.5"
   gem "capybara", "3.35.3"
   gem "database_cleaner"
   gem "formulaic"
