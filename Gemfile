@@ -5,7 +5,7 @@ gemspec
 gem "administrate-field-image"
 gem "faker"
 gem "front_matter_parser"
-gem "globalid"
+gem "globalid", ">= 1.0.1"
 gem "kaminari-i18n"
 gem "pg"
 gem "redcarpet"
