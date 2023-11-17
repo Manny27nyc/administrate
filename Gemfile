@@ -18,7 +18,7 @@ group :development, :test do
   gem "bundler-audit", require: false
   gem "byebug"
   gem "dotenv-rails"
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 6.3.0"
   gem "i18n-tasks", "0.9.34"
   gem "pry-rails"
   gem "yard"
